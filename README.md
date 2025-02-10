@@ -140,16 +140,18 @@ IoT 개발자 기초 프로그래밍 언어 리포지토리
 
 https://github.com/user-attachments/assets/6a6def71-e841-4167-ba4c-565be0bc1512
 
-        - 주피터노트북  기본사용법
+        - 주피터노트북 기본사용법
             - 파이썬을 사용, 연구를 목적으로하는 리포트작성에 특화된 기술
             - 주피터 프로젝트에서 나온 결과물
             - Ctrl + Shift + P(명령 팔레트) 에서 시작작
                 - Create : 새 Jupyter 노트북 클릭릭
                 - 무조건 저장 먼저(.ipynb)
+            - GUI 학습에는 불합리    
+            - 빅데이터분석, 머신러닝, 딥러닝 많이 활용
 
         - GUI 학습
             - GUI(Graphic User Interface) - 그래픽 사용자 인터페이스
-            - CLI(Cpnsole Line Interface) - GUI 이전에 사용자 인터페이스. 사용이 불편. 사용자가 명령어를 거의다 외워서 사용
+            - CLI(Console Line Interface) - GUI 이전에 사용자 인터페이스. 사용이 불편. 사용자가 명령어를 거의다 외워서 사용
 
         - 파이썬 GUI 라이브러리
             1. PyQt, PySide : 파이썬 최고의 GUI 라이브러리. Qt라는 C/C++ 사용할 GUI라이브러리를 Python용으로 변경
@@ -166,5 +168,23 @@ https://github.com/user-attachments/assets/6a6def71-e841-4167-ba4c-565be0bc1512
                 - 모바일 특화로 멀티플랫폼 지원
                 - 가장 어렵다        
 
+    - Tkinter 학습
+        - 기본 템플릿
+
+        ```python
+        from tkinter import *
+
+        root = Tk()
+        # 이 사이에 위젯, 이벤트 등 작성
+        # Label, Button, Entry, Radiobutton
+        # Checkbutton, Listbox, Frame 등...
+        # 위젯.pack() 필수!
+        root.mainloop()
+        ```
+
+<!-- 주석 -->
+<!-- html에서 사용하는 <img>태그로 캡처한 이미지를 추가 -->
+![py001](./image/py001)
+<img src ="./image/py001", width ="400">        
                       
         
