@@ -20,7 +20,7 @@ def run():
     load_movie(lst_movie)
 
     while True:
-        sel_menu = set_menu()        # ㅇ바ㅏ타 : 2009 : 20세기폭스 : 7.5
+        sel_menu = set_menu()        
         if sel_menu == 1:
             # print('영화 입력')
             try:
