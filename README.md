@@ -195,7 +195,13 @@ https://github.com/user-attachments/assets/6a6def71-e841-4167-ba4c-565be0bc1512
         - ChatGPT 유사앱 - 구글 제미나이 API
 
     - 실습
-        - 제미나이 챗앱 -> **클래스형태**로 변경    
+        - 제미나이 챗앱 -> **클래스형태**로 변경
+
+
+https://github.com/user-attachments/assets/ad76b9cf-eef6-4636-8617-7757a71dcdcc
+
+
+              
 
     - 실행파일 만들기
         - `pyinstaller` 모듈 설치
